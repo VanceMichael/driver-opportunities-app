@@ -1,0 +1,2230 @@
+{
+  "drivers": [
+    {
+      "id": "D1",
+      "home_city": "甲",
+      "active_from": "2025-01-01"
+    },
+    {
+      "id": "D2",
+      "home_city": "甲",
+      "active_from": "2025-01-01"
+    },
+    {
+      "id": "D3",
+      "home_city": "甲",
+      "active_from": "2025-01-01"
+    },
+    {
+      "id": "D4",
+      "home_city": "甲",
+      "active_from": "2025-01-01"
+    },
+    {
+      "id": "D5",
+      "home_city": "甲",
+      "active_from": "2025-01-01"
+    },
+    {
+      "id": "D6",
+      "home_city": "甲",
+      "active_from": "2025-01-01"
+    },
+    {
+      "id": "D7",
+      "home_city": "乙",
+      "active_from": "2025-01-01"
+    },
+    {
+      "id": "D8",
+      "home_city": "乙",
+      "active_from": "2025-01-01"
+    },
+    {
+      "id": "D9",
+      "home_city": "乙",
+      "active_from": "2025-01-01"
+    },
+    {
+      "id": "D10",
+      "home_city": "乙",
+      "active_from": "2025-01-01"
+    },
+    {
+      "id": "D11",
+      "home_city": "乙",
+      "active_from": "2025-01-01"
+    },
+    {
+      "id": "D12",
+      "home_city": "乙",
+      "active_from": "2025-01-01"
+    }
+  ],
+  "orders": [
+    {
+      "id": "O1",
+      "driver_id": "D2",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-02"
+    },
+    {
+      "id": "O2",
+      "driver_id": "D3",
+      "city": "甲",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-03"
+    },
+    {
+      "id": "O3",
+      "driver_id": "D4",
+      "city": "乙",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-04"
+    },
+    {
+      "id": "O4",
+      "driver_id": "D5",
+      "city": "甲",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-05"
+    },
+    {
+      "id": "O5",
+      "driver_id": "D6",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-06"
+    },
+    {
+      "id": "O6",
+      "driver_id": "D7",
+      "city": "乙",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-07"
+    },
+    {
+      "id": "O7",
+      "driver_id": "D8",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": false,
+      "date": "2026-09-08"
+    },
+    {
+      "id": "O8",
+      "driver_id": "D9",
+      "city": "甲",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-09"
+    },
+    {
+      "id": "O9",
+      "driver_id": "D10",
+      "city": "乙",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-10"
+    },
+    {
+      "id": "O10",
+      "driver_id": "D11",
+      "city": "甲",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-11"
+    },
+    {
+      "id": "O11",
+      "driver_id": "D12",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-12"
+    },
+    {
+      "id": "O12",
+      "driver_id": "D1",
+      "city": "乙",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-13"
+    },
+    {
+      "id": "O13",
+      "driver_id": "D2",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-14"
+    },
+    {
+      "id": "O14",
+      "driver_id": "D3",
+      "city": "甲",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": false,
+      "date": "2026-09-15"
+    },
+    {
+      "id": "O15",
+      "driver_id": "D4",
+      "city": "乙",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-16"
+    },
+    {
+      "id": "O16",
+      "driver_id": "D5",
+      "city": "甲",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-17"
+    },
+    {
+      "id": "O17",
+      "driver_id": "D6",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-18"
+    },
+    {
+      "id": "O18",
+      "driver_id": "D7",
+      "city": "乙",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-19"
+    },
+    {
+      "id": "O19",
+      "driver_id": "D8",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-20"
+    },
+    {
+      "id": "O20",
+      "driver_id": "D9",
+      "city": "甲",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-21"
+    },
+    {
+      "id": "O21",
+      "driver_id": "D10",
+      "city": "乙",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": false,
+      "date": "2026-09-22"
+    },
+    {
+      "id": "O22",
+      "driver_id": "D11",
+      "city": "甲",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-23"
+    },
+    {
+      "id": "O23",
+      "driver_id": "D12",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-24"
+    },
+    {
+      "id": "O24",
+      "driver_id": "D1",
+      "city": "乙",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-25"
+    },
+    {
+      "id": "O25",
+      "driver_id": "D2",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-26"
+    },
+    {
+      "id": "O26",
+      "driver_id": "D3",
+      "city": "甲",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-27"
+    },
+    {
+      "id": "O27",
+      "driver_id": "D4",
+      "city": "乙",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-28"
+    },
+    {
+      "id": "O28",
+      "driver_id": "D5",
+      "city": "甲",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": false,
+      "date": "2026-09-01"
+    },
+    {
+      "id": "O29",
+      "driver_id": "D6",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-02"
+    },
+    {
+      "id": "O30",
+      "driver_id": "D7",
+      "city": "乙",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-03"
+    },
+    {
+      "id": "O31",
+      "driver_id": "D8",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-04"
+    },
+    {
+      "id": "O32",
+      "driver_id": "D9",
+      "city": "甲",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-05"
+    },
+    {
+      "id": "O33",
+      "driver_id": "D10",
+      "city": "乙",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-06"
+    },
+    {
+      "id": "O34",
+      "driver_id": "D11",
+      "city": "甲",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-07"
+    },
+    {
+      "id": "O35",
+      "driver_id": "D12",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": false,
+      "date": "2026-09-08"
+    },
+    {
+      "id": "O36",
+      "driver_id": "D1",
+      "city": "乙",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-09"
+    },
+    {
+      "id": "O37",
+      "driver_id": "D2",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-10"
+    },
+    {
+      "id": "O38",
+      "driver_id": "D3",
+      "city": "甲",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-11"
+    },
+    {
+      "id": "O39",
+      "driver_id": "D4",
+      "city": "乙",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-12"
+    },
+    {
+      "id": "O40",
+      "driver_id": "D5",
+      "city": "甲",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-13"
+    },
+    {
+      "id": "O41",
+      "driver_id": "D6",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-14"
+    },
+    {
+      "id": "O42",
+      "driver_id": "D7",
+      "city": "乙",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": false,
+      "date": "2026-09-15"
+    },
+    {
+      "id": "O43",
+      "driver_id": "D8",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-16"
+    },
+    {
+      "id": "O44",
+      "driver_id": "D9",
+      "city": "甲",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-17"
+    },
+    {
+      "id": "O45",
+      "driver_id": "D10",
+      "city": "乙",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-18"
+    },
+    {
+      "id": "O46",
+      "driver_id": "D11",
+      "city": "甲",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-19"
+    },
+    {
+      "id": "O47",
+      "driver_id": "D12",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-20"
+    },
+    {
+      "id": "O48",
+      "driver_id": "D1",
+      "city": "乙",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-21"
+    },
+    {
+      "id": "O49",
+      "driver_id": "D2",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": false,
+      "date": "2026-09-22"
+    },
+    {
+      "id": "O50",
+      "driver_id": "D3",
+      "city": "甲",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-23"
+    },
+    {
+      "id": "O51",
+      "driver_id": "D4",
+      "city": "乙",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-24"
+    },
+    {
+      "id": "O52",
+      "driver_id": "D5",
+      "city": "甲",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-25"
+    },
+    {
+      "id": "O53",
+      "driver_id": "D6",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-26"
+    },
+    {
+      "id": "O54",
+      "driver_id": "D7",
+      "city": "乙",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-27"
+    },
+    {
+      "id": "O55",
+      "driver_id": "D8",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-28"
+    },
+    {
+      "id": "O56",
+      "driver_id": "D9",
+      "city": "甲",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": false,
+      "date": "2026-09-01"
+    },
+    {
+      "id": "O57",
+      "driver_id": "D10",
+      "city": "乙",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-02"
+    },
+    {
+      "id": "O58",
+      "driver_id": "D11",
+      "city": "甲",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-03"
+    },
+    {
+      "id": "O59",
+      "driver_id": "D12",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-04"
+    },
+    {
+      "id": "O60",
+      "driver_id": "D1",
+      "city": "乙",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-05"
+    },
+    {
+      "id": "O61",
+      "driver_id": "D2",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-06"
+    },
+    {
+      "id": "O62",
+      "driver_id": "D3",
+      "city": "甲",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-07"
+    },
+    {
+      "id": "O63",
+      "driver_id": "D4",
+      "city": "乙",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": false,
+      "date": "2026-09-08"
+    },
+    {
+      "id": "O64",
+      "driver_id": "D5",
+      "city": "甲",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-09"
+    },
+    {
+      "id": "O65",
+      "driver_id": "D6",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-10"
+    },
+    {
+      "id": "O66",
+      "driver_id": "D7",
+      "city": "乙",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-11"
+    },
+    {
+      "id": "O67",
+      "driver_id": "D8",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-12"
+    },
+    {
+      "id": "O68",
+      "driver_id": "D9",
+      "city": "甲",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-13"
+    },
+    {
+      "id": "O69",
+      "driver_id": "D10",
+      "city": "乙",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-14"
+    },
+    {
+      "id": "O70",
+      "driver_id": "D11",
+      "city": "甲",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": false,
+      "date": "2026-09-15"
+    },
+    {
+      "id": "O71",
+      "driver_id": "D12",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-16"
+    },
+    {
+      "id": "O72",
+      "driver_id": "D1",
+      "city": "乙",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-17"
+    },
+    {
+      "id": "O73",
+      "driver_id": "D2",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-18"
+    },
+    {
+      "id": "O74",
+      "driver_id": "D3",
+      "city": "甲",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-19"
+    },
+    {
+      "id": "O75",
+      "driver_id": "D4",
+      "city": "乙",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-20"
+    },
+    {
+      "id": "O76",
+      "driver_id": "D5",
+      "city": "甲",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-21"
+    },
+    {
+      "id": "O77",
+      "driver_id": "D6",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": false,
+      "date": "2026-09-22"
+    },
+    {
+      "id": "O78",
+      "driver_id": "D7",
+      "city": "乙",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-23"
+    },
+    {
+      "id": "O79",
+      "driver_id": "D8",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-24"
+    },
+    {
+      "id": "O80",
+      "driver_id": "D9",
+      "city": "甲",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-25"
+    },
+    {
+      "id": "O81",
+      "driver_id": "D10",
+      "city": "乙",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-26"
+    },
+    {
+      "id": "O82",
+      "driver_id": "D11",
+      "city": "甲",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-27"
+    },
+    {
+      "id": "O83",
+      "driver_id": "D12",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-28"
+    },
+    {
+      "id": "O84",
+      "driver_id": "D1",
+      "city": "乙",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": false,
+      "date": "2026-09-01"
+    },
+    {
+      "id": "O85",
+      "driver_id": "D2",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-02"
+    },
+    {
+      "id": "O86",
+      "driver_id": "D3",
+      "city": "甲",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-03"
+    },
+    {
+      "id": "O87",
+      "driver_id": "D4",
+      "city": "乙",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-04"
+    },
+    {
+      "id": "O88",
+      "driver_id": "D5",
+      "city": "甲",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-05"
+    },
+    {
+      "id": "O89",
+      "driver_id": "D6",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-06"
+    },
+    {
+      "id": "O90",
+      "driver_id": "D7",
+      "city": "乙",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-07"
+    },
+    {
+      "id": "O91",
+      "driver_id": "D8",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": false,
+      "date": "2026-09-08"
+    },
+    {
+      "id": "O92",
+      "driver_id": "D9",
+      "city": "甲",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-09"
+    },
+    {
+      "id": "O93",
+      "driver_id": "D10",
+      "city": "乙",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-10"
+    },
+    {
+      "id": "O94",
+      "driver_id": "D11",
+      "city": "甲",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-11"
+    },
+    {
+      "id": "O95",
+      "driver_id": "D12",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-12"
+    },
+    {
+      "id": "O96",
+      "driver_id": "D1",
+      "city": "乙",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-13"
+    },
+    {
+      "id": "O97",
+      "driver_id": "D2",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-14"
+    },
+    {
+      "id": "O98",
+      "driver_id": "D3",
+      "city": "甲",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": false,
+      "date": "2026-09-15"
+    },
+    {
+      "id": "O99",
+      "driver_id": "D4",
+      "city": "乙",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-16"
+    },
+    {
+      "id": "O100",
+      "driver_id": "D5",
+      "city": "甲",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-17"
+    },
+    {
+      "id": "O101",
+      "driver_id": "D6",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-18"
+    },
+    {
+      "id": "O102",
+      "driver_id": "D7",
+      "city": "乙",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-19"
+    },
+    {
+      "id": "O103",
+      "driver_id": "D8",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-20"
+    },
+    {
+      "id": "O104",
+      "driver_id": "D9",
+      "city": "甲",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-21"
+    },
+    {
+      "id": "O105",
+      "driver_id": "D10",
+      "city": "乙",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": false,
+      "date": "2026-09-22"
+    },
+    {
+      "id": "O106",
+      "driver_id": "D11",
+      "city": "甲",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-23"
+    },
+    {
+      "id": "O107",
+      "driver_id": "D12",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-24"
+    },
+    {
+      "id": "O108",
+      "driver_id": "D1",
+      "city": "乙",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-25"
+    },
+    {
+      "id": "O109",
+      "driver_id": "D2",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-26"
+    },
+    {
+      "id": "O110",
+      "driver_id": "D3",
+      "city": "甲",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-27"
+    },
+    {
+      "id": "O111",
+      "driver_id": "D4",
+      "city": "乙",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-28"
+    },
+    {
+      "id": "O112",
+      "driver_id": "D5",
+      "city": "甲",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": false,
+      "date": "2026-09-01"
+    },
+    {
+      "id": "O113",
+      "driver_id": "D6",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-02"
+    },
+    {
+      "id": "O114",
+      "driver_id": "D7",
+      "city": "乙",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-03"
+    },
+    {
+      "id": "O115",
+      "driver_id": "D8",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-04"
+    },
+    {
+      "id": "O116",
+      "driver_id": "D9",
+      "city": "甲",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-05"
+    },
+    {
+      "id": "O117",
+      "driver_id": "D10",
+      "city": "乙",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-06"
+    },
+    {
+      "id": "O118",
+      "driver_id": "D11",
+      "city": "甲",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-07"
+    },
+    {
+      "id": "O119",
+      "driver_id": "D12",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": false,
+      "date": "2026-09-08"
+    },
+    {
+      "id": "O120",
+      "driver_id": "D1",
+      "city": "乙",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-09"
+    },
+    {
+      "id": "O121",
+      "driver_id": "D2",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-10"
+    },
+    {
+      "id": "O122",
+      "driver_id": "D3",
+      "city": "甲",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-11"
+    },
+    {
+      "id": "O123",
+      "driver_id": "D4",
+      "city": "乙",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-12"
+    },
+    {
+      "id": "O124",
+      "driver_id": "D5",
+      "city": "甲",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-13"
+    },
+    {
+      "id": "O125",
+      "driver_id": "D6",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-14"
+    },
+    {
+      "id": "O126",
+      "driver_id": "D7",
+      "city": "乙",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": false,
+      "date": "2026-09-15"
+    },
+    {
+      "id": "O127",
+      "driver_id": "D8",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-16"
+    },
+    {
+      "id": "O128",
+      "driver_id": "D9",
+      "city": "甲",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-17"
+    },
+    {
+      "id": "O129",
+      "driver_id": "D10",
+      "city": "乙",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-18"
+    },
+    {
+      "id": "O130",
+      "driver_id": "D11",
+      "city": "甲",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-19"
+    },
+    {
+      "id": "O131",
+      "driver_id": "D12",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-20"
+    },
+    {
+      "id": "O132",
+      "driver_id": "D1",
+      "city": "乙",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-21"
+    },
+    {
+      "id": "O133",
+      "driver_id": "D2",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": false,
+      "date": "2026-09-22"
+    },
+    {
+      "id": "O134",
+      "driver_id": "D3",
+      "city": "甲",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-23"
+    },
+    {
+      "id": "O135",
+      "driver_id": "D4",
+      "city": "乙",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-24"
+    },
+    {
+      "id": "O136",
+      "driver_id": "D5",
+      "city": "甲",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-25"
+    },
+    {
+      "id": "O137",
+      "driver_id": "D6",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-26"
+    },
+    {
+      "id": "O138",
+      "driver_id": "D7",
+      "city": "乙",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-27"
+    },
+    {
+      "id": "O139",
+      "driver_id": "D8",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-28"
+    },
+    {
+      "id": "O140",
+      "driver_id": "D9",
+      "city": "甲",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": false,
+      "date": "2026-09-01"
+    },
+    {
+      "id": "O141",
+      "driver_id": "D10",
+      "city": "乙",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-02"
+    },
+    {
+      "id": "O142",
+      "driver_id": "D11",
+      "city": "甲",
+      "product": "短途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-03"
+    },
+    {
+      "id": "O143",
+      "driver_id": "D12",
+      "city": "甲",
+      "product": "短途",
+      "slot": "晚",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-04"
+    },
+    {
+      "id": "O144",
+      "driver_id": "D1",
+      "city": "乙",
+      "product": "长途",
+      "slot": "日",
+      "offered": true,
+      "completed": true,
+      "date": "2026-09-05"
+    }
+  ],
+  "ratings": [
+    {
+      "id": "R1",
+      "order_id": "O1",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R2",
+      "order_id": "O2",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R4",
+      "order_id": "O4",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R5",
+      "order_id": "O5",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R8",
+      "order_id": "O8",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R10",
+      "order_id": "O10",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R11",
+      "order_id": "O11",
+      "score": -1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R13",
+      "order_id": "O13",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R16",
+      "order_id": "O16",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R17",
+      "order_id": "O17",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R19",
+      "order_id": "O19",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R20",
+      "order_id": "O20",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R22",
+      "order_id": "O22",
+      "score": -1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R23",
+      "order_id": "O23",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R25",
+      "order_id": "O25",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R26",
+      "order_id": "O26",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R29",
+      "order_id": "O29",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R31",
+      "order_id": "O31",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R32",
+      "order_id": "O32",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R34",
+      "order_id": "O34",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R37",
+      "order_id": "O37",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R38",
+      "order_id": "O38",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R40",
+      "order_id": "O40",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R41",
+      "order_id": "O41",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R43",
+      "order_id": "O43",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R44",
+      "order_id": "O44",
+      "score": -1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R46",
+      "order_id": "O46",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R47",
+      "order_id": "O47",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R50",
+      "order_id": "O50",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R52",
+      "order_id": "O52",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R53",
+      "order_id": "O53",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R55",
+      "order_id": "O55",
+      "score": -1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R58",
+      "order_id": "O58",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R59",
+      "order_id": "O59",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R61",
+      "order_id": "O61",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R62",
+      "order_id": "O62",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R64",
+      "order_id": "O64",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R65",
+      "order_id": "O65",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R67",
+      "order_id": "O67",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R68",
+      "order_id": "O68",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R71",
+      "order_id": "O71",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R73",
+      "order_id": "O73",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R74",
+      "order_id": "O74",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R76",
+      "order_id": "O76",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R79",
+      "order_id": "O79",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R80",
+      "order_id": "O80",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R82",
+      "order_id": "O82",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R83",
+      "order_id": "O83",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R85",
+      "order_id": "O85",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R86",
+      "order_id": "O86",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R88",
+      "order_id": "O88",
+      "score": -1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R89",
+      "order_id": "O89",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R92",
+      "order_id": "O92",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R94",
+      "order_id": "O94",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R95",
+      "order_id": "O95",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R97",
+      "order_id": "O97",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R100",
+      "order_id": "O100",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R101",
+      "order_id": "O101",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R103",
+      "order_id": "O103",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R104",
+      "order_id": "O104",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R106",
+      "order_id": "O106",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R107",
+      "order_id": "O107",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R109",
+      "order_id": "O109",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R110",
+      "order_id": "O110",
+      "score": -1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R113",
+      "order_id": "O113",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R115",
+      "order_id": "O115",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R116",
+      "order_id": "O116",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R118",
+      "order_id": "O118",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R121",
+      "order_id": "O121",
+      "score": -1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R122",
+      "order_id": "O122",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R124",
+      "order_id": "O124",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R125",
+      "order_id": "O125",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R127",
+      "order_id": "O127",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R128",
+      "order_id": "O128",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R130",
+      "order_id": "O130",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R131",
+      "order_id": "O131",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R134",
+      "order_id": "O134",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R136",
+      "order_id": "O136",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R137",
+      "order_id": "O137",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R139",
+      "order_id": "O139",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R142",
+      "order_id": "O142",
+      "score": 1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    },
+    {
+      "id": "R143",
+      "order_id": "O143",
+      "score": -1,
+      "received": "2026-10-02",
+      "supersedes": null,
+      "status": "有效"
+    }
+  ],
+  "appeals": [
+    {
+      "id": "A1",
+      "order_id": "O11",
+      "driver_id": "D12",
+      "submitted": "2026-10-05",
+      "finding": "撤销差评",
+      "decided": "2026-10-12"
+    },
+    {
+      "id": "A2",
+      "order_id": "O22",
+      "driver_id": "D11",
+      "submitted": "2026-10-08",
+      "finding": "待决",
+      "decided": null
+    }
+  ],
+  "policy": [
+    {
+      "id": "P1",
+      "period": "2026-09",
+      "maturity_days": 10,
+      "min_completed": 8,
+      "prizes_fen": [
+        50000,
+        30000,
+        10000
+      ],
+      "city_floor": {
+        "甲": 1,
+        "乙": 1
+      },
+      "total_budget_fen": 100000,
+      "compensation_budget_fen": 30000,
+      "protection": "已核实严重服务违规不参与"
+    }
+  ],
+  "violations": [
+    {
+      "id": "V1",
+      "order_id": "O33",
+      "status": "待核实",
+      "kind": "严重服务违规"
+    }
+  ],
+  "payments": [
+    {
+      "id": "PAY1",
+      "driver_id": "D12",
+      "policy_id": "P1",
+      "amount_fen": 10000,
+      "paid_at": "2026-10-10",
+      "award_id": "AW1"
+    }
+  ],
+  "awards": [
+    {
+      "id": "AW1",
+      "driver_id": "D12",
+      "city_slot": "乙",
+      "policy_id": "P1",
+      "status": "已付款",
+      "decision_at": "2026-10-09"
+    }
+  ]
+}

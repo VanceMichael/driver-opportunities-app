@@ -1,0 +1,456 @@
+{
+  "type": [
+    "object"
+  ],
+  "properties": {
+    "appeals": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "decided": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "driver_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "finding": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "order_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "submitted": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "decided",
+          "driver_id",
+          "finding",
+          "id",
+          "order_id",
+          "submitted"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "awards": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "city_slot": {
+            "type": [
+              "string"
+            ]
+          },
+          "decision_at": {
+            "type": [
+              "string"
+            ]
+          },
+          "driver_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "policy_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "status": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "city_slot",
+          "decision_at",
+          "driver_id",
+          "id",
+          "policy_id",
+          "status"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "drivers": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "active_from": {
+            "type": [
+              "string"
+            ]
+          },
+          "home_city": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "active_from",
+          "home_city",
+          "id"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "orders": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "city": {
+            "type": [
+              "string"
+            ]
+          },
+          "completed": {
+            "type": [
+              "boolean"
+            ]
+          },
+          "date": {
+            "type": [
+              "string"
+            ]
+          },
+          "driver_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "offered": {
+            "type": [
+              "boolean"
+            ]
+          },
+          "product": {
+            "type": [
+              "string"
+            ]
+          },
+          "slot": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "city",
+          "completed",
+          "date",
+          "driver_id",
+          "id",
+          "offered",
+          "product",
+          "slot"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "payments": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "amount_fen": {
+            "type": [
+              "number"
+            ]
+          },
+          "award_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "driver_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "paid_at": {
+            "type": [
+              "string"
+            ]
+          },
+          "policy_id": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "amount_fen",
+          "award_id",
+          "driver_id",
+          "id",
+          "paid_at",
+          "policy_id"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "policy": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "city_floor": {
+            "type": [
+              "object"
+            ],
+            "properties": {
+              "乙": {
+                "type": [
+                  "number"
+                ]
+              },
+              "甲": {
+                "type": [
+                  "number"
+                ]
+              }
+            },
+            "required": [
+              "乙",
+              "甲"
+            ],
+            "additionalProperties": true
+          },
+          "compensation_budget_fen": {
+            "type": [
+              "number"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "maturity_days": {
+            "type": [
+              "number"
+            ]
+          },
+          "min_completed": {
+            "type": [
+              "number"
+            ]
+          },
+          "period": {
+            "type": [
+              "string"
+            ]
+          },
+          "prizes_fen": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "number"
+              ]
+            }
+          },
+          "protection": {
+            "type": [
+              "string"
+            ]
+          },
+          "total_budget_fen": {
+            "type": [
+              "number"
+            ]
+          }
+        },
+        "required": [
+          "city_floor",
+          "compensation_budget_fen",
+          "id",
+          "maturity_days",
+          "min_completed",
+          "period",
+          "prizes_fen",
+          "protection",
+          "total_budget_fen"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "ratings": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "order_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "received": {
+            "type": [
+              "string"
+            ]
+          },
+          "score": {
+            "type": [
+              "number"
+            ]
+          },
+          "status": {
+            "type": [
+              "string"
+            ]
+          },
+          "supersedes": {
+            "type": [
+              "null",
+              "string",
+              "number",
+              "boolean",
+              "object",
+              "array"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "order_id",
+          "received",
+          "score",
+          "status",
+          "supersedes"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "violations": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "kind": {
+            "type": [
+              "string"
+            ]
+          },
+          "order_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "status": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "order_id",
+          "status"
+        ],
+        "additionalProperties": true
+      }
+    }
+  },
+  "required": [
+    "appeals",
+    "awards",
+    "drivers",
+    "orders",
+    "payments",
+    "policy",
+    "ratings",
+    "violations"
+  ],
+  "additionalProperties": true,
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "司机服务激励的机会校准与申诉补偿合成资料格式"
+}
